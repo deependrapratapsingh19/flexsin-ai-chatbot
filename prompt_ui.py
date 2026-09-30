@@ -9,6 +9,7 @@ llm = HuggingFaceEndpoint(
     repo_id="meta-llama/Llama-3.1-8B-Instruct"
 )
 
+# this is my model
 model = ChatHuggingFace(llm=llm)
 
 st.header("Research Tool")

@@ -18,6 +18,7 @@ style_input = st.selectbox("Select Explanation Style",["Begginer-Friendly", "Tec
 
 length_input = st.selectbox("Select Explanation Length",["Short(1-2 Paragraph)", "Medium(3-4 Paragraph)","Long (Detailed Explanation)"])
 
+# this is my template
 template = PromptTemplate(
     template="""
     Please Summarize the research Paper Entitled "{paper_input}" with the following specifications :

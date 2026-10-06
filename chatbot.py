@@ -145,7 +145,7 @@ def load_text_model():
         task="text-generation",
         max_new_tokens=1024,
         do_sample=False,
-        provider="auto",
+        provider="hf-inference",
         huggingfacehub_api_token=HF_TOKEN,
     )
 

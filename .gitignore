@@ -1,2 +1,29 @@
+# Secrets
 .env
+.streamlit/secrets.toml
+
+# Python virtual environments
 venv/
+.venv/
+
+# Python cache
+__pycache__/
+**/__pycache__/
+*.pyc
+*.pyo
+
+# Node dependencies
+node_modules/
+**/node_modules/
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs/temp
+*.log
+*.tmp

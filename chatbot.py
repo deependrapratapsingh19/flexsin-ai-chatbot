@@ -165,7 +165,7 @@ text_model = load_text_model()
 def load_image_client():
 
     return InferenceClient(
-        api_key=HF_TOKEN
+        api_key=HF_TOKEN 
     )
 
 

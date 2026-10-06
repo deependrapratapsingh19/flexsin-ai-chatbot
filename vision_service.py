@@ -85,10 +85,10 @@ def create_vision_client():
 
 
     return InferenceClient(
-        provider="auto",
-        api_key=token,
-    )
-
+    provider="hf-inference",
+    api_key=token,
+)
+ 
 
 # ============================================================
 # IMAGE → DATA URL

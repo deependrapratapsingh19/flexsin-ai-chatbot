@@ -26,7 +26,7 @@
 
 
     script.src =
-        "https://chat.flexsin.com/widget/chatbot-widget.js";
+    "https://flexsin-ai-chatbot-1.onrender.com/chatbot-widget.js";
 
 
     script.async =

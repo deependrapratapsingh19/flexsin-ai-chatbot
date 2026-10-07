@@ -9,10 +9,10 @@
     const CSS_ID = "flexsin-ai-widget-css";
 
     const WIDGET_BASE_URL =
-        "http://chat.flexsin.com/widget";
+    "https://flexsin-ai-chatbot-1.onrender.com";
 
     const CHATBOT_URL =
-        "http://chat.flexsin.com/?embed=true";
+    "https://flexsin-ai-chatbot.onrender.com/?embed=true";
 
 
     // =========================================================
